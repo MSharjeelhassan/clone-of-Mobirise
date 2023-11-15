@@ -60,7 +60,7 @@ p {
     /* overflow: hidden; */
     height: 350px;
     border: 1px solid red;
-  
+
 }
 
 .portimgdiv img {
@@ -76,7 +76,28 @@ p {
 
     top: 0px;
 }
-.portimgdiv:hover .divimgcontent{
+
+.portimgdiv:hover .divimgcontent {
     display: none;
 
+}
+
+.watchvideo {
+    width: 50%;
+}
+
+.playbtn {
+    position: relative;
+    border: 1px solid red;
+    left: -350px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.cards{
+    width: 350px;
+}
+
+.imgcard{
+    width: 60px;
 }
