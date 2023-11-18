@@ -114,3 +114,16 @@ p {
 .review>i{
     padding: 0 5px 0 5px;
 }
+
+.lcards{
+    width: 350px;
+}
+.bluetop{
+    width: 300px;
+    height: 200px;
+    background-color: #575edf;
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: 80px;
+}
